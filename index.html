@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poojan's Portfolio</title>
+    <link rel="stylesheet" href="prp.css">
+
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class="logo">Poojan Rawal</div>
+        <div>
+            <ul class = "nav-links">
+                <li><a href ="#about">About</ahref></li>
+                <li><a href ="#experience">Experience</ahref></li>
+                <li><a href ="#projects">Projects</ahref></li>
+                <li><a href ="#contact">Contacts</ahref></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Poojan Rawal</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onClick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        <div class="menu-links">
+            <li><a href ="#about" onClick="toggleMenu()">About</ahref></li>
+                <li><a href ="#experience" onClick="toggleMenu()">Experience</ahref></li>
+                <li><a href ="#projects" onClick="toggleMenu()">Projects</ahref></li>
+                <li><a href ="#contact" onClick="toggleMenu()">Contacts</ahref></li>  
+        </div>
+        </div>
+    </nav>
+    <script src = "prp.js"></script>
+    
+</body>
+</html>
